@@ -1,0 +1,20 @@
+.menu {
+	display: flex;
+	align-items: center;
+	justify-content: right;
+	vertical-align: middle;
+	&_home {
+		display: inline-block;
+		padding: 15px;
+		font-weight: 500;
+		font-size: 11px;
+		text-transform: uppercase;
+		letter-spacing: 0.3rem;
+		span {
+			color: $main-color;
+			text-decoration: none;
+			cursor: pointer;
+		}
+	}
+}		
+	
